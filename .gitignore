@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# uv
+.venv/
+.uv-cache/
+uv.lock
+
+# Env
+.env
+
+#Cache
+.ruff_cache
+
+# Build / dist
+build/
+dist/
+*.whl
+*.tar.gz
+
+# Coverage / testing
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+data/
+tests/
+extra/
+plan.txt
