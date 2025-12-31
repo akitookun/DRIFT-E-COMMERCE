@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/main.py
+src/drift_e_commerce.egg-info/PKG-INFO
+src/drift_e_commerce.egg-info/SOURCES.txt
+src/drift_e_commerce.egg-info/dependency_links.txt
+src/drift_e_commerce.egg-info/entry_points.txt
+src/drift_e_commerce.egg-info/requires.txt
+src/drift_e_commerce.egg-info/top_level.txt
+src/inventory/database.py
+src/inventory/main.py
