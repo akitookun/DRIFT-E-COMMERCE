@@ -1,9 +1,0 @@
-Metadata-Version: 2.4
-Name: drift-e-commerce
-Version: 0.1.0
-Summary: E-Commerce Website
-Requires-Python: >=3.13
-Description-Content-Type: text/markdown
-Requires-Dist: fastapi>=0.128.0
-Requires-Dist: pymongo>=4.15.5
-Requires-Dist: ruff>=0.14.10
