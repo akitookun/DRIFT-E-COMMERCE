@@ -15,3 +15,7 @@ class MongoDB:
 
     def get_collection(self) -> Collection:
         return self.db.get_collection("inventory")
+
+
+mongo_db = MongoDB()
+collection = MongoDB.get_collection(mongo_db)

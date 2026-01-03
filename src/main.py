@@ -1,11 +1,13 @@
-from database.mongo_db import MongoDB
-from pymongo.database import Collection
+from database.mongo_db import collection
+import asyncio
+
+
+async def run():
+    print(f"Collection obtained: {collection.name}")
 
 
 def main():
-    db = MongoDB()
-    collection: Collection = db.get_collection()
-    print(f"Collection obtained: {collection.name}")
+    asyncio.run(run())
 
 
 if __name__ == "__main__":
