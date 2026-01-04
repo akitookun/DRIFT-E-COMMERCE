@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart | Drift</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">Drift</div>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/explore">Explore</a>
+        <a href="/cart">Cart</a>
+        <a href="/login">Login</a>
+    </nav>
+</header>
+
+<main class="container">
+
+    <h2>Your Cart</h2>
+
+    <div class="cart-item">
+        <span>Minimal Chair</span>
+        <span>₹2499</span>
+        <button onclick="removeFromCart('ITEM_ID')">Remove</button>
+    </div>
+
+    <div class="cart-total">
+        Total: ₹<span id="totalAmount">2499</span>
+    </div>
+
+    <button class="cta" onclick="purchase()">Purchase</button>
+
+</main>
+
+<footer class="footer">© 2026 Drift</footer>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

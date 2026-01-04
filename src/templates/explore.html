@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Explore | Drift</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">Drift</div>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/explore">Explore</a>
+        <a href="/cart">Cart</a>
+        <a href="/login">Login</a>
+    </nav>
+</header>
+
+<main class="container">
+
+    <!-- Search & Filter -->
+    <section class="controls">
+        <input type="text" placeholder="Search products..."
+               oninput="searchProducts(this.value)">
+        <select onchange="filterByPrice(this.value)">
+            <option value="">Price</option>
+            <option value="low">Low → High</option>
+            <option value="high">High → Low</option>
+        </select>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products">
+
+        <!-- Product Card -->
+        <div class="product">
+            <img src="/static/sample.jpg">
+            <h3>Minimal Chair</h3>
+            <p>₹2499</p>
+            <button onclick="addToCart('ITEM_ID')">Add to Cart</button>
+        </div>
+
+        <!-- Repeat dynamically via backend -->
+    </section>
+
+</main>
+
+<footer class="footer">© 2026 Drift</footer>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
